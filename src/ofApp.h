@@ -8,6 +8,12 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
+		void insertAtHead(int value);
+		void insertAtTail(int value);
+		void deleteHead();
+		void deleteTail();
+		void updateNodes(float time);
+		void drawNodes();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
